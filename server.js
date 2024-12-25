@@ -19,7 +19,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: ["https://www.GenerationCloneMernStack.vercel.app"],  // Ensure it's a valid URL
+  origin: ["https://generation-clone-mern-stack.vercel.app"],  // Ensure it's a valid URL
   methods: ["POST", "GET", "PUT", "DELETE"],
   credentials: true
 }));
