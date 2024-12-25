@@ -1,0 +1,770 @@
+* {
+  margin: 0;     
+ box-sizing: border-box;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+
+
+ .containerfront{
+   position: relative;
+ }
+
+ .bottom{
+
+   
+   position: absolute;
+   text-align: center;
+   bottom: 50px;
+  
+ 
+   left: 44%;
+   color: white;
+   
+  
+ }
+ .bottom :hover{
+       transition: 0.3s ease;
+ }
+ .shopbutton{
+   border: 0cap;
+   margin-top: 10%;
+   background-color: white;
+   padding: 8px;
+   width: auto;
+   min-width: 170px;
+  letter-spacing: 0;
+   font-size: 12px;
+   cursor: pointer;
+ }
+ 
+ 
+ .img1 {
+   display: grid;
+   place-items: center; 
+   
+ }
+ table{
+   border-collapse: collapse;
+   border-spacing: 0;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ table td{
+ position: relative;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+ }
+ table img {
+  max-width:100%; 
+   display: block;
+   padding: 0;
+   margin: 0;
+   cursor: pointer;
+   
+ }
+ table img.noresize{
+   width: 1400px;
+   display: block;
+ }
+ .text-overlay{
+   position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       color: white;
+     
+       padding: 5px;
+ }
+ 
+ form{
+   margin: 1
+ }
+ .container{
+ width: 100%;
+ padding-left: 60px; 
+ padding-right: 60px;
+ box-sizing: border-box;
+ }
+ .subsection1{
+  text-align: center;
+   font-size: 40px;
+  
+ }
+ .subsection2{
+   text-align: left;
+  margin-bottom: -33px;
+  font-size: 30px;
+ }
+  .subsection3{
+   text-align: center;
+   
+ margin-bottom: -33px;
+  font-size: 30px;
+  }
+  .banner3{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .line{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 20px;
+   box-sizing: border-box;
+   padding-top: 1%;
+  }
+  .icons{
+   display: flex;
+   gap: 5px;
+  }
+  .icons img{
+   width: 30px;
+   height: 30px;
+   cursor: auto;
+  }
+  .centerimg{
+   
+  display: flex;
+  justify-content: center; 
+  flex-grow: 1;
+  cursor: pointer;
+  
+
+  
+  
+ }
+ .icons img:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+ }
+ .img1{
+   width: 15%;
+   height: auto;
+   
+ }
+ .container2{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   
+   white-space: nowrap;
+   padding: 5%;
+   padding-top: 0.5%;
+   border: 10%;
+   
+ }
+ .gallimages{
+
+   width: 23%;
+
+   
+   cursor: pointer;
+   
+ }
+ .image-container {
+ 
+  flex-direction: column;
+  align-items: center;
+  width: 23%;
+}
+
+.image-container  img {
+ width: 100%;
+}
+
+.text {
+   font-size: 80%;
+  padding-left: 10%;
+  margin-top: 10px;
+  
+}
+
+ 
+
+ .a{
+   max-width: 100%;
+   margin-left: 10%;
+   margin-top: 0%;
+   
+ }
+
+ .contt{
+
+ margin-left: 6%;
+ padding: 0%;
+  
+
+ }
+
+ .cont1 {
+  padding-right: 5%;
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+margin-right: 40px;
+ margin-top: 10%;
+  
+  
+ max-width: 45%;
+cursor: pointer;
+
+  
+}
+
+.cont1 img {
+  max-width: 100%;
+  cursor: pointer;
+}
+ .tiktok{
+   display: flex;
+   padding: 0%;
+   border: 0cap;
+
+  
+ }
+ .tiktok-embed{
+   display: flex;
+   height: 100%;
+   padding: 0%;
+   width: 500%;
+   border: 0cap;
+ }
+ /* styles.css */
+.sidenav {
+height: 100%;
+position: absolute;
+z-index: 1;
+top: 0;
+left: 0;
+width: 0; /* Ensure the initial width is 0 */
+background-color: white;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 10px; /* Adjust if you want top padding for the whole bar */
+}
+
+.sidenav-content {
+padding-left: 20px; /* Add padding for left margin */
+padding-right: 20px; /* Add padding for right margin */
+}
+
+.sidenav a {
+
+font-size: 15px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+.slidenav a:hover{
+text-decoration: none; 
+color: grey; 
+}
+
+.sidenav .closebtn {
+font-size: 36px;
+margin-top: 0;
+padding-right: 1.5%;
+margin-bottom: 13%;
+cursor: pointer;
+}
+
+#main {
+transition: margin-left .5s;
+padding: 0;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav { padding-top: 15px; }
+.sidenav a { font-size: 10px; }
+}
+
+.product {
+position: relative;
+overflow: hidden;
+padding: 20px;
+}
+
+
+
+.product-container {
+
+padding-right: 50%;
+margin-right: 4%;
+margin-left: 8%;
+
+display: flex;
+overflow-x: auto;
+scroll-behavior: smooth;
+overflow-y: hidden; /* Hide vertical scrollbar */
+overflow-x: hidden; 
+}
+
+.heart{
+background-color: none;
+
+color: #f0eaea;
+position: absolute;
+margin-left: auto;
+margin-top: auto;
+z-index: 999;
+cursor: pointer;
+right: 10px;
+}
+
+.heart-checkbox{
+display: none;
+}
+
+
+.heart-checkbox:checked + .heart {
+color: rgb(17, 17, 17);
+}
+
+.product-container::-webkit-scrollbar {
+display: none;
+}
+
+.product-card {
+flex: 0 0 auto;
+width: 250px;
+height: 500px;
+margin-right: 40px;
+}
+
+.product-image {
+position: relative;
+width: 100%;
+height: 350px;
+overflow: hidden;
+}
+
+.product-thumb {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.discount-tag {
+position: absolute;
+background: red;
+font-size: 13px;
+padding: 2%;
+border-radius: 0px;
+color: white;
+
+
+text-transform: capitalize;
+}
+
+
+
+
+
+
+
+.product-info {
+width: 100%;
+height: 100px;
+padding-top: 10px;
+}
+
+.product-brand {
+text-transform: uppercase;
+}
+
+.product-short-description {
+width: 70%;
+height: 20px;
+overflow: hidden; 
+font-size: 13px;
+margin-bottom: 0%;
+
+}
+
+.price {
+font-weight: 900;
+font-size: 12px;
+color: red;
+}
+
+.actual-price {
+margin-left: 10px;
+opacity: 0.5;
+font-size: 12px;
+text-decoration: line-through;
+}
+
+.pre-btn,
+.nxt-btn {
+border-radius: 50%;
+border: none;
+width: 4vw;
+height: 9%;
+margin-top: 12%;
+position: absolute;
+top: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(90deg, rgba(255, 255, 255, 255) 10%, #fff 100%);
+cursor: pointer;
+border-color: none;
+z-index: 8;
+}
+
+.pre-btn {
+left: 0;
+transform: rotate(180deg);
+}
+
+.nxt-btn {
+right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+opacity: 1;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+opacity: 1;
+
+}
+
+.collection-container {
+width: 100%;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 10px;
+}
+
+.collection {
+position: relative;
+}
+
+.collection img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.collection p {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: #fff;
+font-size: 50px;
+text-transform: capitalize;
+}
+
+.collection:nth-child(3) {
+grid-column: span 2;
+margin-bottom: 10px;
+}
+
+
+/* //marquee */
+/* Remove margin and padding from the navbar and marquee container */
+.navbar {
+  font-size: 17px;
+  background-color: white !important;  /* Use !important to force the style */
+  margin-top: 0 !important;  /* Remove margin on top */
+  padding-top: 0 !important;
+  /* Ensure no padding at the bottom of the navbar */
+}
+
+.marquee-container {
+  margin-top: 0;  /* Ensure no margin at the top */
+  padding-top: 0;  /* Ensure no padding at the top */
+  overflow: hidden;  /* Keeps the marquee within bounds */
+}
+
+.marquee-text {
+  background-color: whitesmoke;
+  color: gray;
+  font-size: 70%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;  /* Remove default margin */
+  padding: 0;  /* Remove default padding */
+}
+
+.marquee {
+  white-space: nowrap;
+  margin: 0;  /* Remove any margin */
+}
+
+
+.navbar-logo {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+}
+
+/* Prevent the default color change when a navbar link is clicked */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active {
+  color: inherit; /* Maintain the default color */
+  background-color: transparent; /* Avoid background color change */
+}
+
+/* Prevent color change for the navbar toggler icon */
+.navbar-toggler {
+  color: inherit; /* Maintain the default color */
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border if present */
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none; /* Remove the outline on focus or active state */
+  color: inherit; /* Keep the default color */
+  background-color: transparent; /* No background change */
+  box-shadow: none; /* Remove any focus shadow */
+}
+
+.small-text {
+  font-size: 14px; /* Adjust the size as per your preference */
+  color: #555; /* Optional: change color if needed */
+}
+
+/* Container for the registration form */
+.register-container {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 8px;
+  width: 400px;
+  text-align: center;
+  border: none;
+  margin: 50px auto; /* Adjust this value to move the form higher or lower */
+  position: relative;
+  top: -50px; /* This moves the form upwards */
+}
+
+/* Heading for the form */
+.register-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styling for input groups (each input field) */
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Styling for input fields */
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Focused input styling */
+.input-group input:focus {
+  border-color: #000;
+  outline: none;
+}
+
+/* Styling for the submit button */
+.register-button {
+  border: 1px solid black;
+  width: 100%;
+  height: 40px;
+  display: block;
+  color: white;
+  background: linear-gradient(to right, white 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-in-out;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+.register-button:hover {
+  background-position: left bottom;
+  color: #000;
+}
+
+/* Styling for the "Already have an account?" text */
+.register-container p {
+  color: #666;
+}
+
+/* Styling for the link inside the paragraph */
+.register-container a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Label styling */
+.input-group label {
+  font-size: 14px;
+  color: #333;
+}
+
+
+.nav-item.dropdown {
+  list-style: none; /* Removes the dot */
+ 
+}
+
+
+/* General styling for the dropdown */
+.nav-item.dropdown {
+  list-style: none; /* Removes the dot */
+  margin: 0; /* Reset margins */
+  padding: 0; /* Reset padding */
+  position: relative; /* Ensure the dropdown menu can be repositioned */
+}
+
+/* Align the user name properly */
+
+
+/* Adjust dropdown menu position */
+.nav-item.dropdown .dropdown-menu {
+  margin-top: 10px; /* Adjust dropdown menu's vertical positioning */
+  transform: translateX(-100px); /* Shift the dropdown 50px to the left */
+  padding: 0.5rem; /* Add padding for better spacing */
+  border-radius: 5px; /* Optional: Rounded corners for the dropdown */
+  min-width: 150px; /* Ensure consistent width */
+}
+
+/* Add hover effect to dropdown links */
+.nav-item.dropdown .dropdown-item {
+  padding: 0.5rem 1rem; /* Adjust padding for dropdown items */
+  font-size: 0.9rem; /* Slightly smaller font */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-item.dropdown .dropdown-item:hover {
+  background-color: #f8f9fa; /* Light gray background on hover */
+}
+
+
+
+.subsection1 {
+  text-align: center !important;
+  font-size: 44px !important;
+  font-weight: bold !important;
+  margin: 20px 0 !important;
+ 
+  text-transform: uppercase !important;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+.carousel-buttons {
+  margin-top: 30px; /* Push the buttons down */
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-buttons .pre-btn {
+  margin-right: 5px; /* Space between the buttons */
+}
+
+.subsection2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+.product-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+}
+
+
+
+.banner-container {
+  position: relative; /* Ensures positioning context for children */
+  width: 100%; /* Adjust as needed */
+  margin: auto;
+}
+
+.banner-img {
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains aspect ratio */
+}
+
+.shopbutton {
+  position: absolute; /* Allows positioning relative to the container */
+  bottom: 10%; /* Adjusts vertical placement */
+  left: 50%; /* Centers horizontally */
+  transform: translateX(-50%); /* Corrects centering offset */
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.shopbutton:hover {
+  background-color: black;
+  color: white;
+}
+.carousel-button-container {
+  position: absolute;
+  top: 80%; /* Position in the middle vertically */
+  left: 50%; /* Position in the middle horizontally */
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
+.carousel-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel-btn:hover {
+  background-color: #070000;
+  color: #fff;
+}
+
+/* Remove hover effect from input and button */
+.form-control.me-2:focus {
+  border-color: initial; /* Prevent border color change on focus */
+  box-shadow: none; /* Remove focus shadow */
+}
+
+.btn.btn-outline-success:hover {
+  background-color: transparent; /* Keep background transparent on hover */
+   /* Keep the original border color */
+  color: #020202; /* Keep the original text color */
+}
+
+

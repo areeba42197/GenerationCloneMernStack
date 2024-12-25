@@ -1,0 +1,80 @@
+/* About.css */
+.about-page {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.about-page h1 {
+    font-size: 36px;  /* Increase the size */
+    font-weight: bold;  /* Make it bold */
+    color: #333;  /* Maintain the color */
+    margin-bottom: 20px;
+}
+
+.about-container {
+    margin: 0 auto;
+    
+    max-width: 1200px;
+}
+
+.about-page h1 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-page p {
+    font-size: 15px;
+    color: rgb(105, 102, 102);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Flex container for each section */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 30px; /* Space between each section */
+}
+
+.about-section .about-text {
+    width: 50%;  /* Adjust width of text section */
+    text-align: left;  /* Keep text left aligned */
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    width: 700px; /* Adjust width for larger screens */
+}
+
+/* Make sections responsive on smaller screens */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column; /* Stack text and image vertically on small screens */
+        text-align: center; /* Center text on small screens */
+    }
+
+    .about-section .about-text {
+        width: 100%;  /* Allow the text to take the full width */
+        text-align: left;  /* Keep text left aligned on small screens */
+    }
+
+    .about-section img {
+        width: 100%;  /* Make image take full width on small screens */
+    }
+}
