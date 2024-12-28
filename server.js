@@ -18,13 +18,6 @@ connectDB();
 //rest object
 const app = express();
 
-app.use(cors({
-  origin: ["https://generation-clone-mern-stack.vercel.app"],  // Ensure it's a valid URL
-  methods: ["POST", "GET", "PUT", "DELETE"],
-  credentials: true
-}));
-
-mongoose.connect('mongodb+srv://areebasyed822:gulerana3711@cluster0.jkg8i.mongodb.net/ecommerce?retryWrites=true&w=majority');
 
 //middelwares
 app.use ( cors());
